@@ -537,7 +537,7 @@ function Contact() {
           </a>
         </div>
 
-        <p className="discord-id">Discord · 681857641680732179</p>
+        <p className="discord-id"></p>
       </div>
     </section>
   );
