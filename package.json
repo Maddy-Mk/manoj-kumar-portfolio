@@ -1,0 +1,30 @@
+{
+  "name": "manoj-kumar-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner --host 127.0.0.1",
+    "build": "tsc --noEmit && vite --configLoader runner build",
+    "typecheck": "tsc --noEmit --pretty false",
+    "preview": "vite --configLoader runner preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter-tight": "^5.2.8",
+    "@fontsource/ibm-plex-mono": "^5.2.6",
+    "@react-three/fiber": "^9.3.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/three": "^0.179.0",
+    "@vitejs/plugin-react": "^5.1.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
